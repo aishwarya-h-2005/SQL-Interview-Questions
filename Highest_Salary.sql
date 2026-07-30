@@ -28,11 +28,8 @@ VALUES
 SELECT MAX(salary) AS highest_salary
 FROM employee;
 
-/*
 
-Find the second highest salary from the employee table.
-*/
-
+-- Find the second highest salary from the employee table.
 SELECT MAX(salary) AS second_highest_salary
 FROM employee
 WHERE salary < (
